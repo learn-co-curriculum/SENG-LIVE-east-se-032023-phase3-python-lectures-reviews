@@ -7,7 +7,7 @@
 
 
 class Pet:
-    # pass
+    pass
 # 3. ✅ Demonstrate __init__ 
     # Add arguments to instances  
     # use dot notation to access their attributes 
@@ -31,7 +31,16 @@ class Pet:
 # Demonstrate instance method
 # Demonstrate the self keyword 
 # Stretch Goals
+# Demonstrate getters and setters
+    # def get_age( self ):
+    #     return self._age
+
+    # def set_age( self, age ):
+    #     if type( age ) is int and age > 0 :
+    #         self._page_count = page_count
+    #     else : raise TypeError('Age must be a number greater than 0')
 # Demonstrate object properties
+    # age = ( get_age, set_age, )
 
 # Instances 
 
