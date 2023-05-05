@@ -2,8 +2,6 @@
 
 ## Learning Goals
 
-- Demonstrate Decorators 
-    - `@decorator`
 - Demonstrate class variables
     - Defining class variables
     - Updating class variables 
@@ -12,5 +10,7 @@
     - `@classmethod`
     - `cls keyword`
 - Object Inheritance
-- Stretch Goals
     - Super
+- Stretch Goals
+    - Demonstrate Decorators 
+        - `@decorator`
