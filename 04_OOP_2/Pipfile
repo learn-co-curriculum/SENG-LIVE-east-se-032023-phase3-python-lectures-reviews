@@ -5,9 +5,10 @@ name = "Object Oriented Programming in Python"
 
 [packages]
 ipdb = "*"
+pytest = '*'
 
 [dev-packages]
 ipdb = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.11"
