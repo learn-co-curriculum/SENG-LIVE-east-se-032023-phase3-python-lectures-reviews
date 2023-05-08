@@ -19,4 +19,5 @@
         - Explain Single Source of Truth (SST) and why its important
 
 
-- Demonstrate another Many - to - Many using Has - Many - Through using Doctors and Patients.
+- Stretch goal(s):
+    - Demonstrate another Many - to - Many using Doctors and Patients.
