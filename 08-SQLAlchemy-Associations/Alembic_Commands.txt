@@ -1,0 +1,26 @@
+Alembic Command Cheat Sheet
+
+
+(with a new project) To create migrations from scratch:
+alembic init migrations
+- change alembic.ini (line 63) to have correct DB
+- change env.py to have target_metadata = Base.metadata imported from Models
+
+When upgrading the model with changes made:
+
+alembic revision --autogenerate -m
+alembic upgrade head
+
+ipdb code for Pet-owner:
+
+thomas = Owner(name = 'Thomas', email = "email@email.com", phone = 123, address = "house 1")
+session.add(thomas)
+session.commit()
+
+ash = Pet(name = 'Ash', species = 'cat', breed = "charteux", temperament = 'feisty', owner_id = )
+
+
+now =  datetime.datetime.now
+
+grooming_job = Job(request= "clip her nails, and give her a dry bath", fee = 19.99, date = now , pet_id = ash.id, handler_id=chandlier.id)
+
